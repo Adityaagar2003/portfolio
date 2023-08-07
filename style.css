@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(8, 8, 47);
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 1;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+
+    color: rgb(139, 139, 237);
+    font-size: 1.1rem;
+}
+
+.left {
+    font-size: 1.7rem;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0px;
+    align-items: center;
+}
+
+.firstsection>div {
+    width: 36%;
+
+}
+
+.leftsection {
+    font-size: 3rem;
+
+
+}
+
+.rightsection img {
+    width: 80%;
+    margin: 50px 0;
+
+}
+
+.purple {
+    color: rgb(169, 103, 231);
+}
+
+#element {
+    color: rgb(169, 103, 231);
+
+}
+
+.secondsection {
+    max-width: 85vw;
+    margin: auto;
+    height: 80vh;
+}
+
+main hr {
+    border: 0px;
+    background-color: rgb(100, 46, 176);
+    height: 1px;
+    margin: 40px 80px;
+}
+
+.secondsection h1 {
+    font-size: 1.9rem;
+}
+
+.text-gray {
+    color: gray;
+}
+
+.secondsection .box {
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 80px 0px;
+    display: flex;
+
+}
+
+.secondsection .vertical{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0px 100px;
+
+}
+.image-top{
+    width: 45px;
+    position: relative;
+    top: -50px;
+    left: -14px;
+}
+.vertical-title{
+    position: relative;
+    top: 55px;
+    width: 150px;
+    left: -40px;
+}
+
+.vertical-desc{
+    left: -40px;
+    position: relative;
+    top: 65px;
+    color: gray;
+    width: 150px;
+    font-size: 10px;
+}
+footer{
+    background-color: #0b0a1180;
+    height: 250px;
+}
+.footer{
+    
+    display: flex;
+    margin: 25px 120px;
+}
+.resume{
+    display: flex;
+    position: absolute;
+    top: 54%;
+    left: 7%;
+}
+.but {
+    margin: 10px;
+    padding: 17px 40px;
+    border-radius: 50px;
+    border: 0;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all .5s ease;
+    color: black;
+    
+    text-decoration: none;
+  
+   }
+   
+   .but:hover {
+    letter-spacing: 3px;
+    background-color: hsl(261deg 80% 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+   }
+   
+   .but:active {
+    letter-spacing: 3px;
+    background-color: hsl(261deg 80% 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+   }
