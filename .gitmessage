@@ -1,0 +1,20 @@
+# <type>: <subject> (50 chars max)
+
+# Body (72 chars per line)
+# Explain what and why (not how)
+
+# Type can be:
+#   feat     (new feature)
+#   fix      (bug fix)
+#   docs     (documentation changes)
+#   style    (formatting, missing semicolons, etc)
+#   refactor (code restructuring)
+#   test     (adding tests)
+#   chore    (maintenance tasks)
+
+# Example:
+# feat: add dark mode toggle to navbar
+# 
+# - Implement dark mode context
+# - Add toggle button with sun/moon icons
+# - Persist theme preference in localStorage 
