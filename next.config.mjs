@@ -7,7 +7,11 @@ const nextConfig = {
         hostname: '**',
       },
     ],
+    unoptimized: true,
   },
+  output: 'export',
+  distDir: 'out',
+  trailingSlash: true,
 }
 
 export default nextConfig 
